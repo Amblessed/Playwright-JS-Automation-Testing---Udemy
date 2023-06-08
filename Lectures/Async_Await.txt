@@ -1,0 +1,21 @@
+install nodejs first 
+npm init playwright@latest    ------> to install playwright 
+
+playwright.config.js       -------> used for configurations
+
+
+
+
+
+
+
+
+
+
+npx playwright test   ======> would run all the test in the test-folder
+
+npx playwright test HomePageTest.spec.js --project=chromium --headed    --> to run on only chromium and not headless
+
+npx playwright test --project=chromium  --headed       ======> to run on only chromium and all the test
+
+npx playwright test HomePageTest.spec.js --project=chromium  --headed --debug
