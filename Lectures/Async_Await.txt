@@ -9,7 +9,7 @@ playwright.config.js       -------> used for configurations
 
 
 
-
+npx playwright test UIBasicstest.spec.js --debug    ----> This is open the playwright inspector
 
 
 npx playwright test   ======> would run all the test in the test-folder
