@@ -33,7 +33,7 @@ module.exports = defineConfig({
     trace: "retain-on-failure",   //Get the trace on failure of the test
     browserName: 'chromium',
     screenshot: "on",
-    headless: false    //Config the test to run in headed mode
+    headless: true    //Config the test to run in headed mode
   },
 
   /* Configure projects for major browsers */
