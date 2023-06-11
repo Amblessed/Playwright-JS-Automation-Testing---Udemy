@@ -19,3 +19,5 @@ npx playwright test HomePageTest.spec.js --project=chromium --headed    --> to r
 npx playwright test --project=chromium  --headed       ======> to run on only chromium and all the test
 
 npx playwright test HomePageTest.spec.js --project=chromium  --headed --debug
+
+trace.playwright.dev    ----> to see the trace for the test. (Seen under the test-results)

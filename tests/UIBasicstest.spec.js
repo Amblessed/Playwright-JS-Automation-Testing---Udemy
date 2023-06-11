@@ -120,7 +120,7 @@ test("Multiple Elements Test", async ({page}) => {
 
 });
 
-test.only("UI Controls Test", async ({page}) => {
+test("UI Controls Test", async ({page}) => {
 
     //https://rahulshettyacademy.com/client/auth/login
     
